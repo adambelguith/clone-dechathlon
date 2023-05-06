@@ -1,0 +1,40 @@
+.travel-guide-descr {
+    margin-top: 40px;
+    padding: 0 24px;
+    text-align: center;
+    
+}
+
+@media (min-width:1300px) {
+    .travel-guide-descr {
+        width: 1280px;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+}
+
+.travel-guide-descr>.coord {
+    font-size: 16px;
+    color: #0082c3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.25
+}
+
+.travel-guide-descr>.heading {
+    font-family: Decathlon, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1.25
+}
+
+@media (min-width:750px) {
+    .travel-guide-descr>.heading {
+        font-size: 36px
+    }
+}
+
+.travel-guide-descr>.heading {
+    margin-bottom: 40px
+}

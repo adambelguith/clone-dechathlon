@@ -1,0 +1,49 @@
+
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+    padding: 0px 0px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    min-height: 60px;
+    outline: 0;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 1px solid #9bbacd;
+    border-radius: 8px;
+    -webkit-transition: border-color .5s;
+    -o-transition: border-color .5s;
+    transition: border-color .5s;
+}
